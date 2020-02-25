@@ -1,0 +1,149 @@
+body{
+	background-color: lightblue;
+}
+#sidebar{
+	position: fixed;
+	width: 200px;
+	height: 97%;
+	background: rgba(3, 252, 61, 0.4);
+	border-radius: 20px;
+	margin-left: 9px;
+	margin-top: 0px;
+	left: -209px;
+	transition: all 500ms;
+
+  }
+ #sidebar.active{
+	left:0px;
+  }
+#sidebar ul li{
+	font-family: Arial;
+	font-weight: bold;
+	color: rgba(230,230,230,0.9);
+	list-style: none;
+	padding: 15px 10px;
+	border-bottom: 1px solid rgba(100,100,100,0.3);
+  }
+#sidebar .toggle-btn{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+  }
+#sidebar .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #151719;
+	margin: 5px 0px;
+  }
+
+#header {
+	background: rgba(3, 211, 252, 0.5);
+	height: 100px;
+	border-radius: 20px;
+
+
+}
+#header a {
+	color: white;
+	text-decoration: none;
+}
+#header a:hover {
+	color: #222;
+}
+#header h1 {
+	text-align: center;
+	font-family: "Arial Black";
+	font-weight: bold;
+	font-size: 30px;
+}
+#header #letniki {
+	position: absolute;
+	font-size: 15px;
+	font-weight: bold;
+	left: 20%;
+}
+#header #predmeti {
+	position: absolute;
+	font-size: 15px;
+	font-weight: bold;
+	left: 30%;
+}
+#content {
+	background: rgba(252, 227, 3, 0.5);
+	width: 65%;
+	height: 500px;
+	float: left;
+	border-radius: 20px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#content p {
+	text-align: center;
+	font-family: 'Handle', cursive;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+#content button {
+	position: absolute;
+	left: 32%;
+}
+#content img {
+	display: block;
+	margin-left: 35%;
+	margin-right: 70%;
+	margin-top: 90px;
+	height: 60%;
+	border: 5px solid grey;
+	border-radius: 5px;
+
+}
+
+#upload {
+	background: lightgreen;
+	width: 34.5%;
+	height: 500px;
+	float: right;
+	border-radius: 25px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#upload p {
+	font-family: 'Arial Black', fantasy;
+	text-align: center;
+}
+
+
+#upload #a {
+	display: block;
+	width: 5px;
+	height: 30px;
+	background: black;
+	position: absolute;
+	top: 50%;
+	left: 82.5%;
+}
+
+
+#upload #b {
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: black;
+	position: absolute;
+	top: 51.8%;
+	left: 81.7%;
+}
+
+#footer {
+	font-family: cursive;
+	background: darkgrey;
+	height: 100px;
+	border-radius: 20px;
+	text-align: center;
+	clear: both;
+}
+
+

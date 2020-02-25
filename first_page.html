@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ime aplikacije</title>
+	<link rel="stylesheet" type="text/css" href="first_page.css">
+
+	<script type="text/javascript">
+  		function toggleSidebar(){
+   		document.getElementById("sidebar").classList.toggle('active');
+  		}
+ 	</script>
+</head>
+<body>
+	<div id="sidebar">
+		<div class="toggle-btn" onclick="toggleSidebar()"><a>
+  			<span></span>
+  			<span></span>
+  			<span></span>
+   			</a>
+  		</div>
+  		<ul>
+   		<li>Top</li>
+   		<li>Vmes</li>
+   		<li>Bottom</li>
+  		</ul>
+
+
+ 	</div>
+	<div id = "header">
+		<a href="first_page.html"><h1>Home</h1></a> <br>
+		<label id = "letniki" for = "letniki">Izberi letnik:
+		<select id = "letnik">
+			<option value = "prvi">1.</option>
+			<option value = "drugi">2.</option>
+			<option value = "tretji">3.</option>
+			<option value = "četrti">4.</option>
+		</select>
+		</label>
+		<label id = "predmeti" for = "predmeti">Izberi predmet:
+		<select id = "predmet">
+			<option value = "mat">matematika</option>
+			<option value = "slo">slovenščina</option>
+			<option value = "ang">angleščina</option>
+			<option value = "nem">nemščina</option>
+			<option value = "zgo">zgodovina</option>
+			<option value = "psi">psihologija</option>
+			<option value = "bio">biologija</option>
+			<option value = "fiz">fizika</option>
+			<option value = "kem">kemija</option>
+			<option value = "švz">športna vzgoja</option>
+			<option value = "geo">geografija</option>
+			<option value = "gla">glasba</option>
+		</select>
+		</label>
+	</div>
+
+	<div id = "content">
+		<p>Tu bodo prikazane datoteke</p>
+		<button onclick = "alert('sori zarad barv lol')">KLIKNI</button>
+		<img src="https://pbs.twimg.com/media/D4a1klIW4AImrFy.jpg">
+	</div>
+
+	<div id = "upload">
+		<p>Naloži datoteke</p>
+		<div id = "a" onclick = "alert('TO BOMO SPREMENILI V MOŽNOST UPLOADA DATOTEK')"></div>
+		<div id = "b" onclick = "alert('TO BOMO SPREMENILI V MOŽNOST UPLOADA DATOTEK')"></div>
+	</div>
+
+	<div id = "footer">
+		Vse pravice pridržane &copy
+	</div>
+
+</body>
+</html>
